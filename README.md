@@ -10,11 +10,12 @@ c_template/
 │   └── settings.json
 ├── src/                  # Source files
 │   └── main.c            # Main C program
-├── .editorconfig         # Code style rules
+├── .clang-format         # Code formatting rules specifically for C/C++ files
+├── .editorconfig         # General code style rules for all files (indentation, line endings, etc.)
 ├── .gitignore            # Ignore build artifacts and temporary files
 ├── CMakeLists.txt        # CMake configuration file
-├── README.md             # Project documentation
-└── LICENSE               # License file
+├── LICENSE               # License file
+└── README.md             # Project documentation
 ```
 
 ---
@@ -25,17 +26,17 @@ c_template/
 - **Linux** (Ubuntu/Debian):
 ```bash
 sudo apt update
-sudo apt install cmake ninja-build gcc
+sudo apt install cmake ninja-build gcc clang-format
 ```
 
 - **Windows** (Using Chocolatey):
 ```bash
-choco install cmake ninja
+choco install cmake ninja llvm
 ```
 
 - **macOS** (Using Homebrew):
 ```bash
-brew install cmake ninja
+brew install cmake ninja clang-format
 ```
 
 ---

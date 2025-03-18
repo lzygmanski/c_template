@@ -12,9 +12,8 @@ trim_trailing_whitespace = true
 [*.{c,h}]
 indent_style = space
 indent_size = 4
-max_line_length = 100
 
-# Makefiles should use tabs (common convention)
+# Makefiles should use tabs
 [Makefile]
 indent_style = tab
 
@@ -23,8 +22,7 @@ indent_style = tab
 indent_style = space
 indent_size = 2
 
-# Markdown files should allow longer lines but trim trailing whitespace
+# Markdown files should allow longer lines
 [*.md]
 trim_trailing_whitespace = false
 max_line_length = off
-

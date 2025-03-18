@@ -1,3 +1,4 @@
+# ---- CMake Generated Files ----
 /build/
 CMakeCache.txt
 CMakeFiles/
@@ -5,6 +6,7 @@ cmake_install.cmake
 Makefile
 install_manifest.txt
 
+# ---- Compiler Output ----
 *.o
 *.so
 *.dylib
@@ -13,22 +15,28 @@ install_manifest.txt
 *.lib
 *.exe
 
+# ---- VSCode Files ----
 .vscode/*
 !.vscode/settings.json
 
+# ---- Logs and Temporary Files ----
 *.log
 *.tmp
 *.swp
 .DS_Store
 
+# ---- Cache ----
+.cache/
+
+# ---- Ninja Build Files ----
 /ninja*
 /rules.ninja
 /build.ninja
 /.ninja_log
 /.ninja_deps
 
+# ---- Build Directories ----
 /Debug/
 /Release/
 /dist/
 /out/
-
