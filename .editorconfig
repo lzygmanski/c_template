@@ -1,0 +1,30 @@
+# Root-level configuration
+root = true
+
+# Global settings (applies to all files unless overridden)
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C source and header files
+[*.{c,h}]
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+# Makefiles should use tabs (common convention)
+[Makefile]
+indent_style = tab
+
+# JSON files should use 2 spaces
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files should allow longer lines but trim trailing whitespace
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
